@@ -1,0 +1,70 @@
+.middle-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 396px;
+    background-color: #EDF7FA;
+    .middle-part__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 856px;
+        height: 60px;
+        margin-bottom: 5px;
+        .middle-part__info {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 60px;
+            color: #21243D;
+        }
+        a {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: sans-serif;
+            color: #00A8CC;
+        }
+    }
+    .middle-part__product {
+        display: flex;
+        justify-content: space-between;
+        width: 856px;
+        height: 295px;
+        .middle-part__blog {
+            width: 418px;
+            height: 100%;
+            padding:24px 24px 27px 24px;
+            border-radius: 4px;
+            background-color: #fff;
+            h6 {
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 38px;
+                color: #21243D;  
+                margin-bottom: 18px;              
+            }
+            p {
+                
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #21243D;
+                margin-bottom: 15px;
+                span {
+                    font-size: 30px;
+                    margin-right: 25px;
+                    margin-left: 25px;
+                    color: #21243d9d;
+                }
+            }
+            span {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #21243D;
+            }
+        }
+    }
+
+}
