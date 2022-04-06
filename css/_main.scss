@@ -1,0 +1,80 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    .main-title {
+        width: 856px;
+        height: 60px;
+        p {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 60px;
+            color: #21243D;
+        }
+    }
+    .main-item {
+        display: flex;
+        justify-content: space-between;
+        width: 856px;
+        height: 200px;
+        border-bottom: 1px solid #21243d85;
+        margin-top: 25px;
+        .main-item__image {
+            width: 246px;
+            height: 180px;
+        }
+        .main-item__blog {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 594px;
+            height: 180px;
+            padding-left: 10px;
+            h5 {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 44px;
+                color: #21243D;
+                margin-bottom: 16px;
+            }
+            .main-item__data {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 34px;
+                width: 100%;
+                margin-bottom: 17px;
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 62px;
+                    height: 28px;
+                    border-radius:15px;
+                    background-color: #142850;
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 60px;
+                    color: #FFFFFF;
+                }
+                section {
+                    width: 506px;
+                    height: 34px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 29px;
+                    color: #8695A4;
+                }
+                
+            }
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #21243D;
+            }
+        }
+    }
+}
