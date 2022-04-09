@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+* li {
+  list-style-type: none;
+}
+
+* a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header {
+  width: 856px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 300px;
+}
+
+body header nav ul li a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #1f095c;
+}
+
+body header nav .modal-win {
+  display: none;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 856px), (max-width: 375px) {
+  body header {
+    width: 375px;
+    margin-bottom: 24px;
+  }
+  body header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 340px;
+  }
+  body header nav ul {
+    display: none;
+  }
+  body header nav .modal-win {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 30px;
+    height: 24px;
+  }
+  body header nav .modal-win section {
+    width: 30px;
+    height: 2px;
+    background-color: #21243dc5;
+  }
+}
+
+body main h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+  margin-bottom: 56px;
+}
+
+body main .main-part__product {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 681px;
+  height: 770px;
+}
+
+body main .main-part__product .main-part__blog {
+  width: 100%;
+  height: 160px;
+  padding-right: 30px;
+  border-bottom: #21243d9f 1px solid;
+  margin-bottom: 32px;
+}
+
+body main .main-part__product .main-part__blog h6 {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+}
+
+body main .main-part__product .main-part__blog p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+  margin-bottom: 6px;
+}
+
+body main .main-part__product .main-part__blog p .main-part__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+
+body main .main-part__product .main-part__blog p .main-part__icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #21243D;
+}
+
+body main .main-part__product .main-part__blog span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  margin-bottom: 26px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 856px), (max-width: 375px) {
+  body main {
+    width: 340px;
+  }
+  body main h1 {
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 18px;
+  }
+  body main .main-part__product {
+    width: 340px;
+    height: 888px;
+  }
+  body main .main-part__product .main-part__blog {
+    padding: 0;
+    height: 204px;
+    margin-bottom: 18px;
+  }
+  body main .main-part__product .main-part__blog h6 {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 5px;
+  }
+  body main .main-part__product .main-part__blog p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 17px;
+  }
+  body main .main-part__product .main-part__blog p .main-part__icon {
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  body main .main-part__product .main-part__blog p .main-part__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 182px;
+}
+
+body footer .footer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 225px;
+  height: 80px;
+}
+
+body footer .footer-item .footer-item__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 30px;
+}
+
+body footer .footer-item .footer-item__icon a i {
+  font-size: 30px;
+  color: #21243D;
+}
+
+body footer .footer-item p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #21243D;
+}
+/*# sourceMappingURL=blog.css.map */

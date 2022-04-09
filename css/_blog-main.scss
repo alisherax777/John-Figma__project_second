@@ -1,0 +1,99 @@
+main {
+    h1 {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 60px;
+        color: #21243D;
+        margin-bottom: 56px;
+    }
+    .main-part__product {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 681px;   
+        height: 770px;
+        .main-part__blog {
+            width: 100%;
+            height: 160px;
+            padding-right: 30px;
+            border-bottom: #21243d9f 1px solid;
+            margin-bottom: 32px;
+            h6 {
+                margin-bottom: 16px;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 44px;
+                color: #21243D;
+            }
+            p {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 29px;
+                color: #21243D;
+                margin-bottom: 6px;
+                .main-part__text {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 29px;
+                    color: #8695A4;
+                }
+                .main-part__icon {
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 29px;
+                    color: #21243D;
+                }
+            }
+            span {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #21243D;
+                margin-bottom: 26px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:375px) and (max-width:856px), (max-width:375px) {
+    main {
+        width: 340px;
+        h1 {
+            font-size: 30px;
+            line-height: 60px;
+            margin-bottom: 18px;
+            
+        }
+        .main-part__product {
+            width: 340px;
+            height: 888px;
+            .main-part__blog {
+                padding: 0;
+                height: 204px;
+                margin-bottom: 18px;
+                h6 {
+                    font-size: 26px;
+                    line-height: 38px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 17px;
+                    .main-part__icon {
+                        font-size: 16px;
+                        line-height: 24px;
+                        margin-right: 15px;
+                        margin-left: 15px;
+                    }
+                    .main-part__text {
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+
+    }
+}
